@@ -9,10 +9,10 @@ namespace GradeBook
         {
 
             var book = new Book("Scott's Grade Book");
-            book.AddGrade(89.1);
-            book.AddGrade(90.5);
-            book.AddGrade(77.6);
-            book.GetStatistics();
+            
+            // .. Add a loop to enter scores into the gradebook
+            // Console.Readline(); accepts an input
+            // Parse(input)
 
             var stats = book.GetStatistics();
 
